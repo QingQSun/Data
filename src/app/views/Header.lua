@@ -1,5 +1,7 @@
 local Header = class("Header")
 
+require("app.views.Public")
+
 function Header:seeNodeByTag(node, iTag)
     if node == nil then 
         return nil
@@ -48,3 +50,5 @@ end
 
 
 return Header
+
+
